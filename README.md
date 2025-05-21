@@ -1,15 +1,23 @@
-# Placement Predictor (Beginner AI Project)
+# 🎓 Placement Predictor (AI Beginner Project)
 
-This project uses Python and Pandas to analyze student data and identify those eligible for placement based on GPA and backlog status.
+This beginner-friendly AI project uses decision trees to predict student placement eligibility based on GPA and backlog status.
 
-## Dataset
-- `placement-data.csv` contains student details like GPA, backlogs, and eligibility.
+## 📁 Dataset
+- `placement-data.csv` — Contains columns like GPA, Backlogs, and Eligibility.
 
-## What it does
-- Reads and analyzes the data.
-- Prints average GPA.
-- Filters students based on placement eligibility.
+## 🧠 What It Does
+- Analyzes GPA distribution
+- Plots placement eligibility
+- Trains a Decision Tree model
+- Predicts eligibility for new students
 
-## Future Work
-- Add graphs using Matplotlib
-- Use scikit-learn to build a real ML model
+## 📈 Tools Used
+- Python
+- Pandas
+- Matplotlib
+- scikit-learn
+
+## 🚀 Future Improvements
+- Add more features (branch, internships, etc.)
+- Try different ML models (Logistic Regression, SVM)
+- Export model as a web app

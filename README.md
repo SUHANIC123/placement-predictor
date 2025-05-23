@@ -1,23 +1,17 @@
-# 🎓 Placement Predictor (AI Beginner Project)
+# 🎓 Placement Predictor Web App
 
-This beginner-friendly AI project uses decision trees to predict student placement eligibility based on GPA and backlog status.
+A simple Streamlit app that predicts placement eligibility based on:
+- GPA
+- Number of backlogs
 
-## 📁 Dataset
-- `placement-data.csv` — Contains columns like GPA, Backlogs, and Eligibility.
 
-## 🧠 What It Does
-- Analyzes GPA distribution
-- Plots placement eligibility
-- Trains a Decision Tree model
-- Predicts eligibility for new students
+🔗 [Click here to use the app](https://placement-predictor-gmwzczdyxbrgrmqzjdzklx.streamlit.app/)
 
-## 📈 Tools Used
+## 🚀 How it works
+- If GPA > 8.5 and no backlogs → Automatically eligible
+- Otherwise, a machine learning model (`model.pkl`) is used to predict
+
+## 🛠 Built with
 - Python
-- Pandas
-- Matplotlib
-- scikit-learn
-
-## 🚀 Future Improvements
-- Add more features (branch, internships, etc.)
-- Try different ML models (Logistic Regression, SVM)
-- Export model as a web app
+- Streamlit
+- Scikit-learn
